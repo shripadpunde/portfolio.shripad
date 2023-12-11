@@ -1,0 +1,66 @@
+body {
+    background: radial-gradient(
+    118.29% 283.09% at 106.71% 0%,
+    #3f1e9d 0%,
+    #000000 100%
+  );
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 0.349);
+  font-family: 'Poppins', sans-serif;
+  font-size: 4vw;
+  font-weight: 700;
+  margin: 4vw 0 0 11vw;
+}
+
+.container {
+  margin-top: 5vw;
+  width: 100vw;
+  height: 78vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.card {
+  width: 80vw;
+  display: flex;
+  min-height: 55vh;
+}
+
+.card:nth-of-type(2n) {
+  flex-direction: row-reverse;
+}
+
+.card img {
+  height: 28vw;
+  width: auto;
+}
+
+.info {
+  color: rgba(255, 255, 255, 0.644);
+  padding-left: 2vw;
+}
+
+.info h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.3vw;
+}
+
+.info p {
+  width: 35vw;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.3vw;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
